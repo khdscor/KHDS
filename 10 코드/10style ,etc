@@ -1,0 +1,75 @@
+코드
+https://conol.tistory.com/24
+1.<ol> <li>: 순서가 있는 것들을 나열한다 <oi start=5></oi>라하면 5번부터시작
+2.<ul> <li>: 순서가 없는 것들을 나열한다
+3. <a> : 다른주소로 이동한다:: 하이퍼링크   ex) <a href="2.html">CSS</a>
+4. img : 사진을 첨가한다 ex) <img src="coding.jpg"> 
+5.<link rel= "stylesheet" type="text/css" href="xxx.css"> : 외부 css를 추가
+6.<strong>: 글자 진하게 
+7. <u>: 밑줄 
+8.<b>: 글자 진하게
+9.<br>: 줄바꾸기
+10. <table> : 표를 만든다
+https://zetawiki.com/wiki/HTML_table,_tr,_th,_td_%ED%83%9C%EA%B7%B8
+ ex) <table border="5">
+	<tr>
+		<th>번호</th>
+		<th>이름</th>
+	</tr>
+	<tr>
+		<th>1</th>
+		<td>한놈</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>두시기</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>석삼</td>
+	</tr>
+</table>
+/ /   tr은 행    th은  굵게 가운데정렬     td은 열이며  왼쪽정렬 
+
+
+속성
+1. color : red or #FF0000 : 글자색을 부여한다
+2. border : 선의 종류 두께 색   순서상관x    
+ex) <style> img{  border-width: 2px;  border-style: solid; border-color: red; or border : 2px solid red; }
+선의 종류 solid 실선 dotted 점선 dashed 짧은선 double 이중선 
+https://godvow.tistory.com/49
+3.  font-size: 글씨의 크기     ex) 16pt
+https://justmakeyourself.tistory.com/entry/frequency-css-property
+4.  text-align: center;
+ text-align은 글자를 정렬시키며 left, right, center 값이 올 수 있다.
+5. background-color: 배경색
+6.height :5px 높이
+7.weight :5px 너비 
+8. padding: 글자와 테두리 사이의 너비=여백
+9.  margin: 테두리와 다음 테두리 사이의 너비=여백   // 마진겹침현상
+margin: 30px;은 margin-top:30px; margin-right:30px; margin-bottom: 30px; margin-left: 30px; 과 똑같은 의미
+margin: 20px; (상하좌우에 마진값을 20px)
+
+margin: 20px 30px; (마진값이 상하에는 20px, 좌우에는 30px)
+
+margin: 20px 30px 10px; (마진값이 위엔 20px, 오른쪽엔 30px, 아래쪽엔 10px)
+
+margin: 20px 30px 10px 20px(위엔 20px, 오른쪽엔 30px, 아래쪽엔 10px, 왼쪽엔 20px)
+
+10. font-style 글자 기울임을 결정
+
+
+
+
+<div>와 <p>의 차이
+별 차이 없다   주로 <p>는 문장에 , <div>는 전체로 묶어서 쓴다 
+구변하여 쓰는 이유는 css, 속성을 부여할 때 구분해서 부여하기 위해서 이다.
+ 
+
+html은 홈페이지를 이루는 뼈대, css는 어떻게 꾸미는지하는 style라하면 
+javascript는 행동, 동작에 대한 기능이며 javascript를 보다 사용하기 쉽게 처리된 것이
+jquery이다. 
+https://blog.naver.com/fb_lua/221462468334
+
+위에 링크는 아주 잘 정리된 것
+
